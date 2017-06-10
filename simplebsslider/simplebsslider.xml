@@ -11,11 +11,10 @@
 	<description>PLG_FIELDS_SIMPLEBSSLIDER_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="simplebsslider">simplebsslider.php</filename>
-		<folder>language</folder>
 		<folder>params</folder>
 		<folder>tmpl</folder>
 	</files>
-	<languages>
+	<languages folder="language">
 		<language tag="en-GB">en-GB.plg_fields_simplebsslider.ini</language>
 		<language tag="en-GB">en-GB.plg_fields_simplebsslider.sys.ini</language>
 	</languages>
