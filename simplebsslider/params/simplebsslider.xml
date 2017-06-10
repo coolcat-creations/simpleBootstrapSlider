@@ -3,19 +3,18 @@
 	<fields name="fieldparams">
 		<fieldset name="fieldparams">
 			<field
-					name="sliderDirectory"
-					type="folderlist"
-					directory="images"
-					hide_none="true"
-					hide_default="true"
-					recursive="true"
-					label="PLG_FIELDS_SIMPLEBSSLIDER_PARAMS_DIRECTORY_LABEL"
-					description="PLG_FIELDS_SIMPLEBSSLIDER_PARAMS_DIRECTORY_DESC"
-			>
+				name="sliderDirectory"
+				type="folderlist"
+				label="PLG_FIELDS_SIMPLEBSSLIDER_PARAMS_DIRECTORY_LABEL"
+				description="PLG_FIELDS_SIMPLEBSSLIDER_PARAMS_DIRECTORY_DESC"
+				directory="images"
+				hide_none="true"
+				hide_default="true"
+				recursive="true"
+				>
 				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
 				<option value="/">/</option>
 			</field>
-
 		</fieldset>
 	</fields>
 </form>
