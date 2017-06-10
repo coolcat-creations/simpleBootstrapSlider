@@ -1,5 +1,7 @@
 # simpleBootstrapSlider
-Joomla! CustomField - simple Bootstrap 4 Carousel aa
+Joomla! CustomField - simple Bootstrap 4 Carousel
+
+![Image of SimpleBsSlider](http://g.recordit.co/XAFHD0ah2T.gif)
 
 ## Installation and Usage
 * Install the plugin using Joomla! Extension Manager
