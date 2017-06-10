@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="fieldparams">
+		<fieldset name="fieldparams">
+			<field
+					name="sliderDirectory"
+					type="folderlist"
+					directory="images"
+					hide_none="true"
+					hide_default="true"
+					recursive="true"
+					label="PLG_FIELDS_SIMPLEBSSLIDER_PARAMS_DIRECTORY_LABEL"
+					description="PLG_FIELDS_SIMPLEBSSLIDER_PARAMS_DIRECTORY_DESC"
+			>
+				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
+				<option value="/">/</option>
+			</field>
+
+		</fieldset>
+	</fields>
+</form>

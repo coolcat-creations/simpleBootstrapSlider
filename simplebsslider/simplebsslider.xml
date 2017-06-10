@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.6" group="fields" method="upgrade">
+	<name>plg_fields_simplebsslider</name>
+	<author>Elisa Foltyn</author>
+	<creationDate>June 2017</creationDate>
+	<copyright>Copyright 2017 - Coolcat Creations.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>contact@coolcat-creations.com</authorEmail>
+	<authorUrl>coolcat-creations.com</authorUrl>
+	<version>1.0</version>
+	<description>PLG_FIELDS_SIMPLEBSSLIDER_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="simplebsslider">simplebsslider.php</filename>
+		<folder>language</folder>
+		<folder>params</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_fields_simplebsslider.ini</language>
+		<language tag="en-GB">en-GB.plg_fields_simplebsslider.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+						name="sliderDirectory"
+						type="folderlist"
+						directory="images"
+						required="true"
+						hide_none="true"
+						hide_default="true"
+						recursive="true"
+						default="/"
+						label="PLG_FIELDS_SIMPLEBSSLIDER_PARAMS_DIRECTORY_LABEL"
+						description="PLG_FIELDS_SIMPLEBSSLIDER_PARAMS_DIRECTORY_DESC"
+				>
+					<option value="/">/</option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
