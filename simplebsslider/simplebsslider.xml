@@ -17,6 +17,8 @@
 	<languages folder="language">
 		<language tag="en-GB">en-GB.plg_fields_simplebsslider.ini</language>
 		<language tag="en-GB">en-GB.plg_fields_simplebsslider.sys.ini</language>
+		<language tag="fr-FR">fr-FR.plg_fields_simplebsslider.ini</language>
+		<language tag="fr-FR">fr-FR.plg_fields_simplebsslider.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
