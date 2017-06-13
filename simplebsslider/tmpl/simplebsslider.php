@@ -1,6 +1,6 @@
 <?php defined('_JEXEC') or die;
 
-if (!$value)
+if (!$field->value)
 {
 	return;
 }
