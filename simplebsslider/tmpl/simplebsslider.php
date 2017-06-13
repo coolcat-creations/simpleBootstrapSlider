@@ -1,16 +1,15 @@
 <?php defined('_JEXEC') or die;
 
+if (!$value)
+{
+	return;
+}
+
 // for usecase if this customField is rendered in Blogview - generate uniqueID
 $uniqid = uniqid();
 
 // get the folder name in images directory
 $value = $field->value;
-
-// if nothingSelected return
-if (!$value)
-{
-	return;
-}
 
 // read the .jpg from the selected directory
 
